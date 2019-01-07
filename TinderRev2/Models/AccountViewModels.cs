@@ -64,6 +64,14 @@ namespace TinderRev2.Models
 
     public class RegisterViewModel
     {
+        // ADDED BY ME
+        [Required]
+        public string FirstName { get; set; }
+
+        // ADDED BY ME
+        [Required]
+        public string LastName { get; set; }
+
         [Required]
         [EmailAddress]
         [Display(Name = "Email")]
